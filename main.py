@@ -9,6 +9,10 @@ class Game:
         self.clock = pygame.time.Clock()
         self.running = True
         
+        # sprite groups
+        self.all_sprites = pygame.sprite.Group()
+        
+        
     def run(self):
         while self.running:
             dt = self.clock.tick() / 1000
@@ -22,6 +26,7 @@ class Game:
             
             
             # draw
+            self.display_surface.fill(COLORS['bg'])
             pygame.display.update()
             
         pygame.quit()
