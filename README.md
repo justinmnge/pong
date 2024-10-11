@@ -16,8 +16,11 @@ A recreation of the timeless classic, **Pong!**. Challenge a computer-controlled
    - No score limit - play as long as you want!
    - Game progress automatically saves
 
+4. **How to reset the score**:
+   - To reset the score, you must delete the 'score.txt' file in the 'data' folder.
+
 ### Future implementation:
-   - Music integration
+   - <s>Background music integration</s>
    - Multiplayer mode for local 2-player matches
    - Difficulty settings for the AI opponent
    - Power-ups that modify ball speed or paddle size

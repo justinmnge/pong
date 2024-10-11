@@ -19,6 +19,11 @@ class Game:
         self.ball = Ball(self.all_sprites, self.paddle_sprites, self.update_score)
         Opponent((self.all_sprites, self.paddle_sprites), self.ball)
         
+        # music
+        self.music = pygame.mixer.Sound(join('audio', 'Diffuse.mp3'))
+        self.music.set_volume(0.5)
+        self.music.play(loops = -1)
+        
         # score
         try:
             with open(join('data', 'score.txt'))as score_file:
