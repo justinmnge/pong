@@ -1,5 +1,5 @@
 # README
-A recreation of the timeless classic, **Pong!**. Challenge a computer-controlled opponent in this endless tennis-style game. Test your reflexes and timing as you attempt to outscore the AI in this addictive back-and-forth battle.
+A re-creation of the timeless classic, **Pong!**. Challenge a computer-controlled opponent in this endless tennis-style game. Test your reflexes and timing as you attempt to outscore the AI in this addictive back-and-forth battle.
 
 ![pong](https://github.com/user-attachments/assets/c8f14d2f-6fba-4ab4-945c-7ae0ac2d32e1)
 
@@ -21,6 +21,7 @@ A recreation of the timeless classic, **Pong!**. Challenge a computer-controlled
 
 ### Future implementation:
    - <s>Background music integration</s>
+   - GUI and menu
    - Multiplayer mode for local 2-player matches
    - Difficulty settings for the AI opponent
    - Power-ups that modify ball speed or paddle size
